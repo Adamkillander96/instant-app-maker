@@ -40,6 +40,7 @@
     <link rel='apple-touch-icon' sizes='120x120' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
     <link href="https://fonts.googleapis.com/css?family=Muli:200,400" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121181190-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -51,11 +52,11 @@
   </head>
   <body class="h-100">
     <div id="app"></div>
+    <script src="build.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('https://adamkillander96.github.io/instant-app-maker/sw.js');
       }
     </script>
-    <script src="build.js"></script>
   </body>
 </html>
