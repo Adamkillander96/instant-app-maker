@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo  src='https://adamkillander96.github.io/instant-app-maker/IAM.png'/>
+      <square150x150logo  src='https://adamkillander96.github.io/instant-app-maker/IAM.png'/>
+      <wide310x150logo  src='https://adamkillander96.github.io/instant-app-maker/IAM.png'/>
+      <square310x310logo  src='https://adamkillander96.github.io/instant-app-maker/IAM.png'/>
+      <TileColor>#4079b5</TileColor>
+      <TileImage src='https://adamkillander96.github.io/instant-app-maker/IAM.png'/>
+    </tile>
+  </msapplication>
+</browserconfig>
