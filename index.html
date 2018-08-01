@@ -2,14 +2,17 @@
 <html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" />
     <title>Instant App Maker</title>
     <meta name="description" content="Turn your website into a downloadable app (PWA, Progressive Web Application) in no time!">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <!-- Manifest -->
+    <link rel='manifest' href='manifest.json'>
     <!-- Android -->
     <meta name='theme-color' content='#4079b5'>
     <meta name='mobile-web-app-capable' content='yes'>
-    <meta rel='icon' sizes='128x128' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='icon' sizes='192x192' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='icon' sizes='128x128' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='icon' sizes='192x192' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
     <!-- Windows -->
     <meta name='msapplication-navbutton-color' content='#4079b5'>
     <meta name='msapplication-TileColor' content='#4079b5'>
@@ -20,25 +23,32 @@
     <meta name='application-name' content='The Instant App Generator'>
     <meta name='msapplication-tooltip' content='Create a PWA quick and easy!'>
     <meta name='msapplication-starturl' content='/'>
-    <meta rel='mask-icon' size='any' href='https://adamkillander96.github.io/instant-app-maker/IAM.svg' color='#4079b5'>
+    <link rel='mask-icon' size='any' href='https://adamkillander96.github.io/instant-app-maker/IAM.svg' color='#4079b5'>
     <!-- UC Mobile Browser -->
     <meta name='full-screen' content='yes'>
     <meta name='browsermode' content='application'>
-    <meta rel='apple-touch-icon' sizes='72x72' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='apple-touch-icon-precomposed' sizes='57x57' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon' sizes='72x72' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon-precomposed' sizes='57x57' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
     <!-- iOS -->
     <meta name='apple-mobile-web-app-title' content='The Instant App Generator'>
     <meta name='apple-mobile-web-app-capable' content='yes'>
     <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
-    <meta rel='apple-touch-startup-image' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='apple-touch-icon' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='apple-touch-icon' sizes='76x76' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='apple-touch-icon' sizes='152x152' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <meta rel='apple-touch-icon' sizes='120x120' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
-    <!-- Manifest -->
-    <meta rel='manifest' href='https://adamkillander96.github.io/instant-app-maker/manifest.json'>
+    <link rel='apple-touch-startup-image' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon' sizes='76x76' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon' sizes='152x152' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
+    <link rel='apple-touch-icon' sizes='120x120' href='https://adamkillander96.github.io/instant-app-maker/IAM.png'>
     <link href="https://fonts.googleapis.com/css?family=Muli:200,400" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121181190-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121181190-2');
+    </script>
   </head>
   <body class="h-100">
     <div id="app"></div>
