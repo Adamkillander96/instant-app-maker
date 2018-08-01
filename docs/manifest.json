@@ -19,6 +19,6 @@
   "theme_color":"#4079b5",
   "display":"standalone",
   "orientation":"portrait",
-  "start_url":"/?=homescreen",
+  "start_url":"/?from=homescreen",
   "scope":"\/"
   }

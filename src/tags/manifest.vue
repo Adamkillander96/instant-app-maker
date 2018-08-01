@@ -25,7 +25,7 @@
       <span class="d-block">"theme_color":"{{inputs[3].value}}",</span>
       <span class="d-block">"display":"{{inputs[8].value}}",</span>
       <span class="d-block">"orientation":"{{inputs[7].value}}",</span>
-      <span class="d-block">"start_url":"\/?=homescreen",</span>
+      <span class="d-block">"start_url":"/?from=homescreen",</span>
       <span class="d-block">"scope":"\/"</span>
       <span class="d-block">}</span>
     </code>
