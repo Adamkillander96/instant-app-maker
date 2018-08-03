@@ -44,21 +44,21 @@
             </b-tab>
             <b-tab title="Manifest json">
               <div id="Manifest" class="bg-white mt-2">
-                <code class="d-block mb-2 text-success">Create a document called manifest.json and use this code</code>
+                <code class="d-block mb-2 text-success">Create a document called manifest.json and use this code.</code>
                 <hr>
                 <manifestcomponent v-bind:inputs="inputs" />
               </div>
             </b-tab>
             <b-tab title="Browserconfig xml">
               <div id="Browserconfig" class="bg-white mt-2">
-                <code class="d-block mb-2 text-success">Create a document called browserconfig.xml and use this code</code>
+                <code class="d-block mb-2 text-success">Create a document called browserconfig.xml and use this code.</code>
                 <hr>
                 <configcomponent v-bind:inputs="inputs" />
               </div>
             </b-tab>
             <b-tab title="Service worker js">
               <div id="SwJs" class="bg-white mt-2">
-                <code class="d-block mb-2 text-success">Create a document called sw.js and add the EventListener to the bottom of your document</code>
+                <code class="d-block mb-2 text-success">Create a document called sw.js in your root domain and then add the service worker register to the bottom of your page.</code>
                 <hr>
                 <swcomponent v-bind:inputs="inputs" />
               </div>
