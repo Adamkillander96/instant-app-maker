@@ -1,7 +1,7 @@
 {
-  "name":"The Instant App Generator",
+  "name":"The Instant App Maker",
   "short_name":"Instant App",
-  "description":"Create a PWA quick and easy!",
+  "description":"Create a PWA!",
   "icons":[
   {
   "src":"https://adamkillander96.github.io/instant-app-maker/IAM.png",
