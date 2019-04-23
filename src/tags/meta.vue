@@ -1,7 +1,9 @@
 <template>
   <div id="meta-tags" class="p-2 bg-white mt-2">
     <!-- Generic -->
-    <pre class="d-block mb-2"><code v-text="`<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>`"></code></pre>
+    <pre class="d-block mb-2"><code
+  v-text="`<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>`"
+></code></pre>
     <code v-text="`<!-- Android -->`"></code>
     <pre class="d-block mb-2"><code v-text="`<meta name='theme-color' content='`"></code>{{inputs[3].value}}<code v-text="`'>`"></code></pre>
     <pre class="d-block mb-2"><code v-text="`<meta name='mobile-web-app-capable' content='yes'>`"></code></pre>
@@ -34,11 +36,11 @@
     <pre class="d-block mb-2"><code v-text="`<link rel='apple-touch-icon' sizes='120x120' href='`"></code>{{inputs[5].value}}<code v-text="`'>`"></code></pre>
     <code v-text="`<!-- Manifest -->`"></code>
     <pre class="d-block mb-2"><code v-text="`<link rel='manifest' href='`"></code>{{inputs[9].value}}/manifest.json<code v-text="`'>`"></code></pre>
-  </div>   
+  </div>
 </template>
 
 <script>
 export default {
-  props: ['inputs'],
-}
+  props: ["inputs"]
+};
 </script>
